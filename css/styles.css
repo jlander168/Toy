@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Rainbow";
+    src: url("fonts/RainbowBridgePersonalUse-ERae.ttf") format('truetype');
+}
+html {
+    background-image: url("https://wallpaperaccess.com/full/522692.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+body {
+    font-family: "Rainbow";
+}
+
+/* Box Background */
+.grid-container {
+    background: transparent;
+}
+.box {
+    background-color: rgba(255, 255, 255, .7);
+}
+.item-a {
+    background-color: rgb(224, 224, 224);
+    height: 100px;
+}
+.item-c {
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    list-style-type: none;
+    overflow: hidden;
+    opacity: .9;
+}
+header a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+}
+header a:hover, header a:active {
+    color: rgb(104, 104, 104)
+}
+
+/* Image Styles */
+img {
+    opacity: .9;
+    width: 45%;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 10px;
+    clip: rect(0px, 160px, 55px, 0px)
+}
+.about {
+    width: 25%;
+}
+
+/* Footer Styles */
+footer {
+    text-align: left;
+    float: left;
+    height: 110px;
+}
+footer img {
+    width: 5%
+}
+.facebook {
+    width: 6%
+}
+/* Reviews */
+cite {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75%
+}
+#Review a {
+    text-decoration: none;
+    color: black;
+}
+#Review a:hover, #Review a:active {
+    color: rgb(104, 104, 104)
+}
